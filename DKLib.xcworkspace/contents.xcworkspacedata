@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:DK/DK.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PyDK/PyDK.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "Extras">
+      <FileRef
+         location = "group:Extras/DKAVPlayer/DKAVPlayer.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Extras/DKUtils/DKUtils.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Tools">
+      <FileRef
+         location = "container:Tools/DKMaterialEditor/DKMaterialEditor.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "container:Tools/DKMediaPlayer/DKMediaPlayer.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "container:Tools/DKModelEditor/DKModelEditor.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Tools/DKPropertyEditor/DKPropertyEditor.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "container:Tools/DKVolumeEditor/DKVolumeEditor.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Samples">
+      <FileRef
+         location = "container:Samples/LibTest/LibTest.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "container:Samples/TestApp1/TestApp1.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "container:Samples/TestApp2/TestApp2.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "container:Samples/TestApp3/TestApp3.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "container:Samples/TestApp4/TestApp4.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "container:Samples/TestApp5/TestApp5.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Samples/TestApp6/TestApp6.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>

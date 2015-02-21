@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8400B84015BDD133005718FD /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 846BA53F15B171EC00AE27A4 /* libiconv.dylib */; };
+		843EB97A1330A442002D13A4 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843EB96D1330A442002D13A4 /* AppKit.framework */; };
+		843EB97B1330A442002D13A4 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843EB96E1330A442002D13A4 /* IOKit.framework */; };
+		843EB97C1330A442002D13A4 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843EB96F1330A442002D13A4 /* OpenAL.framework */; };
+		843EB97D1330A442002D13A4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843EB9701330A442002D13A4 /* OpenGL.framework */; };
+		843EB97E1330A442002D13A4 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843EB9711330A442002D13A4 /* Carbon.framework */; };
+		84A888B412252F43005E9363 /* default_font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84A888A012252F43005E9363 /* default_font.ttf */; };
+		84A888B612252F43005E9363 /* DKModelEditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A888A212252F43005E9363 /* DKModelEditor.cpp */; };
+		84A888B712252F43005E9363 /* DKModelEditor.xpm in Resources */ = {isa = PBXBuildFile; fileRef = 84A888A412252F43005E9363 /* DKModelEditor.xpm */; };
+		84A888B812252F43005E9363 /* MainWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A888A512252F43005E9363 /* MainWindow.cpp */; };
+		84A888B912252F43005E9363 /* ModelProperties.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A888A712252F43005E9363 /* ModelProperties.cpp */; };
+		84A888BA12252F43005E9363 /* ModelTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A888A912252F43005E9363 /* ModelTree.cpp */; };
+		84A888BB12252F43005E9363 /* RenderFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A888AB12252F43005E9363 /* RenderFrame.cpp */; };
+		84A888BC12252F43005E9363 /* RenderWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A888AD12252F43005E9363 /* RenderWindow.cpp */; };
+		84A888BD12252F43005E9363 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A888B012252F43005E9363 /* stdafx.cpp */; };
+		84ECB8FE17E18D2B0025B6BE /* libexpat.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ECB8BA17E18B080025B6BE /* libexpat.dylib */; };
+		84ECB91F17E18DF90025B6BE /* libwx_osx_cocoau-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ECB89817E18A9A0025B6BE /* libwx_osx_cocoau-3.0.a */; };
+		84ECB92017E18DF90025B6BE /* libwx_osx_cocoau_gl-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ECB89917E18A9A0025B6BE /* libwx_osx_cocoau_gl-3.0.a */; };
+		84ECB92117E18DF90025B6BE /* libwxjpeg-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ECB89A17E18A9A0025B6BE /* libwxjpeg-3.0.a */; };
+		84ECB92217E18DF90025B6BE /* libwxpng-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ECB89B17E18A9A0025B6BE /* libwxpng-3.0.a */; };
+		84ECB92317E18DF90025B6BE /* libwxregexu-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ECB89C17E18A9A0025B6BE /* libwxregexu-3.0.a */; };
+		84ECB92417E18DF90025B6BE /* libwxscintilla-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ECB89D17E18A9A0025B6BE /* libwxscintilla-3.0.a */; };
+		84ECB92517E18DFA0025B6BE /* libwxtiff-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ECB89E17E18A9A0025B6BE /* libwxtiff-3.0.a */; };
+		84FA83B6166F7E730014115F /* libDK_OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FA80FB166F5AEA0014115F /* libDK_OSX.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84A66BD019299E610086056F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA8055166F597B0014115F /* DK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 840CA4ED1928946800689BB6;
+			remoteInfo = DK;
+		};
+		84FA80FA166F5AEA0014115F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA8055166F597B0014115F /* DK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84E42A5C13AF8B4200BF31EA;
+			remoteInfo = DK_OSX;
+		};
+		84FA80FC166F5AEA0014115F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA8055166F597B0014115F /* DK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84E42A5D13AF8B4200BF31EA;
+			remoteInfo = DK_iOS;
+		};
+		84FA83C1166F80990014115F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA8055166F597B0014115F /* DK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC045055464E500DB518D;
+			remoteInfo = DK_OSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		256AC3F00F4B6AF500CF3369 /* DKModelEditor_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 2147486016; lastKnownFileType = sourcecode.c.h; lineEnding = 2; path = DKModelEditor_Prefix.pch; sourceTree = "<group>"; };
+		8405156F158998A30022A052 /* MaterialDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MaterialDataModel.h; sourceTree = "<group>"; };
+		84051570158998A30022A052 /* ModelNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ModelNode.h; sourceTree = "<group>"; };
+		84051571158998A30022A052 /* SamplerDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SamplerDataModel.h; sourceTree = "<group>"; };
+		84051572158998A30022A052 /* StreamDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = StreamDataModel.h; sourceTree = "<group>"; };
+		843EB96D1330A442002D13A4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppKit.framework; sourceTree = "<group>"; };
+		843EB96E1330A442002D13A4 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IOKit.framework; sourceTree = "<group>"; };
+		843EB96F1330A442002D13A4 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenAL.framework; sourceTree = "<group>"; };
+		843EB9701330A442002D13A4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenGL.framework; sourceTree = "<group>"; };
+		843EB9711330A442002D13A4 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Carbon.framework; sourceTree = "<group>"; };
+		846BA53F15B171EC00AE27A4 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		84A888A012252F43005E9363 /* default_font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = default_font.ttf; sourceTree = "<group>"; };
+		84A888A212252F43005E9363 /* DKModelEditor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = DKModelEditor.cpp; sourceTree = "<group>"; };
+		84A888A312252F43005E9363 /* DKModelEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DKModelEditor.h; sourceTree = "<group>"; };
+		84A888A412252F43005E9363 /* DKModelEditor.xpm */ = {isa = PBXFileReference; fileEncoding = 2147486016; lastKnownFileType = text; lineEnding = 2; path = DKModelEditor.xpm; sourceTree = "<group>"; };
+		84A888A512252F43005E9363 /* MainWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = MainWindow.cpp; sourceTree = "<group>"; };
+		84A888A612252F43005E9363 /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MainWindow.h; sourceTree = "<group>"; };
+		84A888A712252F43005E9363 /* ModelProperties.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = ModelProperties.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		84A888A812252F43005E9363 /* ModelProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ModelProperties.h; sourceTree = "<group>"; };
+		84A888A912252F43005E9363 /* ModelTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = ModelTree.cpp; sourceTree = "<group>"; };
+		84A888AA12252F43005E9363 /* ModelTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ModelTree.h; sourceTree = "<group>"; };
+		84A888AB12252F43005E9363 /* RenderFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = RenderFrame.cpp; sourceTree = "<group>"; };
+		84A888AC12252F43005E9363 /* RenderFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = RenderFrame.h; sourceTree = "<group>"; };
+		84A888AD12252F43005E9363 /* RenderWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = RenderWindow.cpp; sourceTree = "<group>"; };
+		84A888AE12252F43005E9363 /* RenderWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = RenderWindow.h; sourceTree = "<group>"; };
+		84A888AF12252F43005E9363 /* Resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Resource.h; sourceTree = "<group>"; };
+		84A888B012252F43005E9363 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = stdafx.cpp; sourceTree = "<group>"; };
+		84A888B112252F43005E9363 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = stdafx.h; sourceTree = "<group>"; };
+		84A888B212252F43005E9363 /* targetver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = targetver.h; sourceTree = "<group>"; };
+		84ECB89817E18A9A0025B6BE /* libwx_osx_cocoau-3.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libwx_osx_cocoau-3.0.a"; sourceTree = "<group>"; };
+		84ECB89917E18A9A0025B6BE /* libwx_osx_cocoau_gl-3.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libwx_osx_cocoau_gl-3.0.a"; sourceTree = "<group>"; };
+		84ECB89A17E18A9A0025B6BE /* libwxjpeg-3.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libwxjpeg-3.0.a"; sourceTree = "<group>"; };
+		84ECB89B17E18A9A0025B6BE /* libwxpng-3.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libwxpng-3.0.a"; sourceTree = "<group>"; };
+		84ECB89C17E18A9A0025B6BE /* libwxregexu-3.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libwxregexu-3.0.a"; sourceTree = "<group>"; };
+		84ECB89D17E18A9A0025B6BE /* libwxscintilla-3.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libwxscintilla-3.0.a"; sourceTree = "<group>"; };
+		84ECB89E17E18A9A0025B6BE /* libwxtiff-3.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libwxtiff-3.0.a"; sourceTree = "<group>"; };
+		84ECB8BA17E18B080025B6BE /* libexpat.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libexpat.dylib; path = usr/lib/libexpat.dylib; sourceTree = SDKROOT; };
+		84FA8055166F597B0014115F /* DK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DK.xcodeproj; path = ../../DK/DK.xcodeproj; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* DKModelEditor-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DKModelEditor-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* DKModelEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKModelEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84ECB92417E18DF90025B6BE /* libwxscintilla-3.0.a in Frameworks */,
+				84FA83B6166F7E730014115F /* libDK_OSX.a in Frameworks */,
+				84ECB8FE17E18D2B0025B6BE /* libexpat.dylib in Frameworks */,
+				84ECB92517E18DFA0025B6BE /* libwxtiff-3.0.a in Frameworks */,
+				84ECB92117E18DF90025B6BE /* libwxjpeg-3.0.a in Frameworks */,
+				8400B84015BDD133005718FD /* libiconv.dylib in Frameworks */,
+				843EB97A1330A442002D13A4 /* AppKit.framework in Frameworks */,
+				84ECB92017E18DF90025B6BE /* libwx_osx_cocoau_gl-3.0.a in Frameworks */,
+				843EB97B1330A442002D13A4 /* IOKit.framework in Frameworks */,
+				84ECB91F17E18DF90025B6BE /* libwx_osx_cocoau-3.0.a in Frameworks */,
+				843EB97C1330A442002D13A4 /* OpenAL.framework in Frameworks */,
+				843EB97D1330A442002D13A4 /* OpenGL.framework in Frameworks */,
+				84ECB92217E18DF90025B6BE /* libwxpng-3.0.a in Frameworks */,
+				843EB97E1330A442002D13A4 /* Carbon.framework in Frameworks */,
+				84ECB92317E18DF90025B6BE /* libwxregexu-3.0.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				84A888A512252F43005E9363 /* MainWindow.cpp */,
+				84A888A612252F43005E9363 /* MainWindow.h */,
+				8405156F158998A30022A052 /* MaterialDataModel.h */,
+				84A888A212252F43005E9363 /* DKModelEditor.cpp */,
+				84A888A312252F43005E9363 /* DKModelEditor.h */,
+				84051570158998A30022A052 /* ModelNode.h */,
+				84A888A712252F43005E9363 /* ModelProperties.cpp */,
+				84A888A812252F43005E9363 /* ModelProperties.h */,
+				84A888A912252F43005E9363 /* ModelTree.cpp */,
+				84A888AA12252F43005E9363 /* ModelTree.h */,
+				84A888AB12252F43005E9363 /* RenderFrame.cpp */,
+				84A888AC12252F43005E9363 /* RenderFrame.h */,
+				84A888AD12252F43005E9363 /* RenderWindow.cpp */,
+				84A888AE12252F43005E9363 /* RenderWindow.h */,
+				84A888AF12252F43005E9363 /* Resource.h */,
+				84051571158998A30022A052 /* SamplerDataModel.h */,
+				84A888B012252F43005E9363 /* stdafx.cpp */,
+				84A888B112252F43005E9363 /* stdafx.h */,
+				84051572158998A30022A052 /* StreamDataModel.h */,
+				84A888B212252F43005E9363 /* targetver.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* DKModelEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* DKModelEditor */ = {
+			isa = PBXGroup;
+			children = (
+				84FA8055166F597B0014115F /* DK.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				843EB96B1330A442002D13A4 /* Frameworks */,
+				8478B315160478D5008E31B4 /* libs */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+			);
+			name = DKModelEditor;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* DKModelEditor_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84A888A012252F43005E9363 /* default_font.ttf */,
+				84A888A412252F43005E9363 /* DKModelEditor.xpm */,
+				8D1107310486CEB800E47090 /* DKModelEditor-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		843EB96B1330A442002D13A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				843EB96D1330A442002D13A4 /* AppKit.framework */,
+				843EB9711330A442002D13A4 /* Carbon.framework */,
+				843EB96E1330A442002D13A4 /* IOKit.framework */,
+				843EB96F1330A442002D13A4 /* OpenAL.framework */,
+				843EB9701330A442002D13A4 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks;
+			sourceTree = DEVELOPER_DIR;
+		};
+		8478B315160478D5008E31B4 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				84ECB8BA17E18B080025B6BE /* libexpat.dylib */,
+				846BA53F15B171EC00AE27A4 /* libiconv.dylib */,
+				84ECB89F17E18A9A0025B6BE /* wxWidgets */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		84ECB89F17E18A9A0025B6BE /* wxWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				84ECB89817E18A9A0025B6BE /* libwx_osx_cocoau-3.0.a */,
+				84ECB89917E18A9A0025B6BE /* libwx_osx_cocoau_gl-3.0.a */,
+				84ECB89A17E18A9A0025B6BE /* libwxjpeg-3.0.a */,
+				84ECB89B17E18A9A0025B6BE /* libwxpng-3.0.a */,
+				84ECB89C17E18A9A0025B6BE /* libwxregexu-3.0.a */,
+				84ECB89D17E18A9A0025B6BE /* libwxscintilla-3.0.a */,
+				84ECB89E17E18A9A0025B6BE /* libwxtiff-3.0.a */,
+			);
+			name = wxWidgets;
+			path = ../wxWidgets/lib;
+			sourceTree = SOURCE_ROOT;
+		};
+		84FA80E7166F5AEA0014115F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84FA80FB166F5AEA0014115F /* libDK_OSX.a */,
+				84FA80FD166F5AEA0014115F /* libDK_iOS.a */,
+				84A66BD119299E610086056F /* DK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* DKModelEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "DKModelEditor" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FA83C2166F80990014115F /* PBXTargetDependency */,
+			);
+			name = DKModelEditor;
+			productInstallPath = "$(HOME)/Applications";
+			productName = DKModelEditor;
+			productReference = 8D1107320486CEB800E47090 /* DKModelEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ICONDB.COM;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DKModelEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* DKModelEditor */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 84FA80E7166F5AEA0014115F /* Products */;
+					ProjectRef = 84FA8055166F597B0014115F /* DK.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* DKModelEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		84A66BD119299E610086056F /* DK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DK.framework;
+			remoteRef = 84A66BD019299E610086056F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84FA80FB166F5AEA0014115F /* libDK_OSX.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDK_OSX.a;
+			remoteRef = 84FA80FA166F5AEA0014115F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84FA80FD166F5AEA0014115F /* libDK_iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDK_iOS.a;
+			remoteRef = 84FA80FC166F5AEA0014115F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A888B412252F43005E9363 /* default_font.ttf in Resources */,
+				84A888B712252F43005E9363 /* DKModelEditor.xpm in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A888B612252F43005E9363 /* DKModelEditor.cpp in Sources */,
+				84A888B812252F43005E9363 /* MainWindow.cpp in Sources */,
+				84A888B912252F43005E9363 /* ModelProperties.cpp in Sources */,
+				84A888BA12252F43005E9363 /* ModelTree.cpp in Sources */,
+				84A888BB12252F43005E9363 /* RenderFrame.cpp in Sources */,
+				84A888BC12252F43005E9363 /* RenderWindow.cpp in Sources */,
+				84A888BD12252F43005E9363 /* stdafx.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84FA83C2166F80990014115F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DK_OSX;
+			targetProxy = 84FA83C1166F80990014115F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DKModelEditor_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					../wxWidgets/trunk/include,
+					"../wxWidgets/lib/wx/include/osx_cocoa-unicode-static-3.0",
+				);
+				INFOPLIST_FILE = "DKModelEditor-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../wxWidgets/lib,
+					/Users/tiff/Desktop/DK3/Tools/wxWidgets/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = DKModelEditor;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DKModelEditor_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					../wxWidgets/trunk/include,
+					"../wxWidgets/lib/wx/include/osx_cocoa-unicode-static-3.0",
+				);
+				INFOPLIST_FILE = "DKModelEditor-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../wxWidgets/lib,
+					/Users/tiff/Desktop/DK3/Tools/wxWidgets/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = DKModelEditor;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					__WXOSX_COCOA__,
+					"_FILE_OFFSET_BITS=64",
+					_LARGE_FILES,
+					WX_PRECOMP,
+					"wxDEBUG_LEVEL=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../DK;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = DKModelEditor;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NDEBUG=1",
+					__WXOSX_COCOA__,
+					"_FILE_OFFSET_BITS=64",
+					_LARGE_FILES,
+					WX_PRECOMP,
+					"wxDEBUG_LEVEL=0",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../DK;
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = DKModelEditor;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "DKModelEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DKModelEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

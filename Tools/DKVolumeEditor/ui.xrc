@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwindows.org/wxxrc" version="2.3.0.1">
+	<object class="wxPanel" name="EditorPanel">
+		<style>wxTAB_TRAVERSAL</style>
+		<size>630,503</size>
+		<object class="wxBoxSizer">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxStaticBoxSizer">
+					<orient>wxHORIZONTAL</orient>
+					<label>X</label>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxSlider" name="SliderX">
+							<style>wxSL_HORIZONTAL|wxSL_LABELS</style>
+							<value>50</value>
+							<min>0</min>
+							<max>100</max>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxCheckBox" name="CheckBoxX">
+							<label>Show</label>
+							<checked>0</checked>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxStaticBoxSizer">
+					<orient>wxHORIZONTAL</orient>
+					<label>Y</label>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxSlider" name="SliderY">
+							<style>wxSL_HORIZONTAL|wxSL_LABELS</style>
+							<value>50</value>
+							<min>0</min>
+							<max>100</max>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxCheckBox" name="CheckBoxY">
+							<label>Show</label>
+							<checked>0</checked>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxStaticBoxSizer">
+					<orient>wxHORIZONTAL</orient>
+					<label>Z</label>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxSlider" name="SliderZ">
+							<style>wxSL_HORIZONTAL|wxSL_LABELS</style>
+							<value>50</value>
+							<min>0</min>
+							<max>100</max>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxCheckBox" name="CheckBoxZ">
+							<label>Show</label>
+							<checked>0</checked>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxStaticBoxSizer">
+					<orient>wxVERTICAL</orient>
+					<label>Colors</label>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxEXPAND</flag>
+						<border>5</border>
+						<object class="wxGridSizer">
+							<rows>0</rows>
+							<cols>2</cols>
+							<vgap>0</vgap>
+							<hgap>0</hgap>
+							<object class="sizeritem">
+								<option>0</option>
+								<flag>wxALIGN_CENTER_VERTICAL|wxALIGN_RIGHT|wxALL</flag>
+								<border>5</border>
+								<object class="wxStaticText" name="m_staticText4">
+									<label>Voxel</label>
+									<wrap>-1</wrap>
+								</object>
+							</object>
+							<object class="sizeritem">
+								<option>0</option>
+								<flag>wxALL</flag>
+								<border>5</border>
+								<object class="wxColourPickerCtrl" name="VoxelColorPicker">
+									<value>#000000</value>
+									<style>wxCLRP_DEFAULT_STYLE</style>
+								</object>
+							</object>
+							<object class="sizeritem">
+								<option>0</option>
+								<flag>wxALIGN_CENTER_VERTICAL|wxALIGN_RIGHT|wxALL</flag>
+								<border>5</border>
+								<object class="wxStaticText" name="m_staticText2">
+									<label>Wireframe</label>
+									<wrap>-1</wrap>
+								</object>
+							</object>
+							<object class="sizeritem">
+								<option>0</option>
+								<flag>wxALL</flag>
+								<border>5</border>
+								<object class="wxColourPickerCtrl" name="WireColorPicker">
+									<value>#000000</value>
+									<style>wxCLRP_DEFAULT_STYLE</style>
+								</object>
+							</object>
+							<object class="sizeritem">
+								<option>1</option>
+								<flag>wxALIGN_CENTER_VERTICAL|wxALIGN_RIGHT|wxALL</flag>
+								<border>5</border>
+								<object class="wxStaticText" name="m_staticText1">
+									<label>Background</label>
+									<wrap>-1</wrap>
+								</object>
+							</object>
+							<object class="sizeritem">
+								<option>0</option>
+								<flag>wxALL</flag>
+								<border>5</border>
+								<object class="wxColourPickerCtrl" name="BGColorPicker">
+									<value>#000000</value>
+									<style>wxCLRP_DEFAULT_STYLE</style>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>1</option>
+				<flag>wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxStaticBoxSizer">
+					<orient>wxVERTICAL</orient>
+					<label>Settings</label>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+						<border>5</border>
+						<object class="wxButton" name="ResizeVolume">
+							<label>Resize Volume</label>
+							<default>0</default>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object class="wxMenuBar" name="MyMenuBar1">
+		<label>MyMenuBar</label>
+		<object class="wxMenu" name="m_menu2">
+			<label>File</label>
+			<object class="wxMenuItem" name="wxID_NEW">
+				<label>New</label>
+				<help></help>
+			</object>
+			<object class="wxMenuItem" name="wxID_OPEN">
+				<label>Open</label>
+				<help></help>
+			</object>
+			<object class="wxMenuItem" name="wxID_SAVE">
+				<label>Save</label>
+				<help></help>
+			</object>
+			<object class="wxMenuItem" name="wxID_SAVEAS">
+				<label>Save As...</label>
+				<help></help>
+			</object>
+			<object class="separator" />
+			<object class="wxMenuItem" name="wxID_EXIT">
+				<label>E_xit</label>
+				<help></help>
+			</object>
+		</object>
+		<object class="wxMenu" name="m_menu3">
+			<label>Edit</label>
+			<object class="wxMenuItem" name="m_menuItem5">
+				<label>Copy</label>
+				<help></help>
+			</object>
+			<object class="wxMenuItem" name="m_menuItem6">
+				<label>Paste</label>
+				<help></help>
+			</object>
+		</object>
+		<object class="wxMenu" name="m_menu4">
+			<label>View</label>
+			<object class="wxMenuItem" name="MenuItemViewLog">
+				<label>Show Log</label>
+				<help></help>
+			</object>
+		</object>
+		<object class="wxMenu" name="m_menu51">
+			<label>Window</label>
+			<object class="wxMenuItem" name="MenuItemWindowMinimize">
+				<label>Minimize</label>
+				<help></help>
+			</object>
+		</object>
+		<object class="wxMenu" name="m_menu5">
+			<label>Help</label>
+			<object class="wxMenuItem" name="wxID_ABOUT">
+				<label>About...</label>
+				<help></help>
+			</object>
+		</object>
+	</object>
+	<object class="wxDialog" name="ResizeVolumeDialog">
+		<style>wxDEFAULT_DIALOG_STYLE</style>
+		<size>480,281</size>
+		<title>Volume Resize</title>
+		<centered>1</centered>
+		<object class="wxBoxSizer">
+			<orient>wxVERTICAL</orient>
+			<object class="spacer">
+				<option>1</option>
+				<flag>wxEXPAND</flag>
+				<border>5</border>
+				<size>0,40</size>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxGridSizer">
+					<rows>3</rows>
+					<cols>2</cols>
+					<vgap>0</vgap>
+					<hgap>0</hgap>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALIGN_CENTER_VERTICAL|wxALIGN_RIGHT|wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="m_staticText7">
+							<label>Width</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALIGN_CENTER_VERTICAL|wxALIGN_LEFT|wxALL</flag>
+						<border>5</border>
+						<object class="wxSpinCtrl" name="ResizeVolumeWidth">
+							<style>wxSP_ARROW_KEYS</style>
+							<value>0</value>
+							<min>0</min>
+							<max>10</max>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALIGN_CENTER_VERTICAL|wxALIGN_RIGHT|wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="m_staticText5">
+							<label>Height</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALIGN_CENTER_VERTICAL|wxALIGN_LEFT|wxALL</flag>
+						<border>5</border>
+						<object class="wxSpinCtrl" name="ResizeVolumeHeight">
+							<style>wxSP_ARROW_KEYS</style>
+							<value>0</value>
+							<min>0</min>
+							<max>10</max>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALIGN_CENTER_VERTICAL|wxALIGN_RIGHT|wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="m_staticText6">
+							<label>Depth</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALIGN_CENTER_VERTICAL|wxALIGN_LEFT|wxALL</flag>
+						<border>5</border>
+						<object class="wxSpinCtrl" name="ResizeVolumeDepth">
+							<style>wxSP_ARROW_KEYS</style>
+							<value>0</value>
+							<min>0</min>
+							<max>10</max>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="spacer">
+				<option>1</option>
+				<flag>wxEXPAND</flag>
+				<border>5</border>
+				<size>0,40</size>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALIGN_BOTTOM|wxALIGN_CENTER_HORIZONTAL|wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxStdDialogButtonSizer">
+					<object class="button">
+						<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+						<border>5</border>
+						<object class="wxButton" name="wxID_OK">
+							<label>&amp;OK</label>
+						</object>
+					</object>
+					<object class="button">
+						<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+						<border>5</border>
+						<object class="wxButton" name="wxID_CANCEL">
+							<label>&amp;Cancel</label>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</resource>

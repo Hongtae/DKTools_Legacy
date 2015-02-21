@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8486E45817DDCB7F00C5F1CD /* libexpat.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A00150171A77F80085C420 /* libexpat.dylib */; };
+		84A00155171A78D90085C420 /* ui.xrc in Resources */ = {isa = PBXBuildFile; fileRef = 84A00153171A78D90085C420 /* ui.xrc */; };
+		84C736B417216FE0008264AF /* Polygonizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84C736B217216FE0008264AF /* Polygonizer.cpp */; };
+		84C736B917216FF5008264AF /* voxel.DKMATERIAL in Resources */ = {isa = PBXBuildFile; fileRef = 84C736B817216FF5008264AF /* voxel.DKMATERIAL */; };
+		84ECB91017E18D790025B6BE /* libwx_osx_cocoau-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ECB8AF17E18ACF0025B6BE /* libwx_osx_cocoau-3.0.a */; };
+		84ECB91117E18D790025B6BE /* libwx_osx_cocoau_gl-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ECB8B017E18ACF0025B6BE /* libwx_osx_cocoau_gl-3.0.a */; };
+		84ECB91217E18D790025B6BE /* libwxjpeg-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ECB8B117E18ACF0025B6BE /* libwxjpeg-3.0.a */; };
+		84ECB91317E18D790025B6BE /* libwxpng-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ECB8B217E18ACF0025B6BE /* libwxpng-3.0.a */; };
+		84ECB91417E18D790025B6BE /* libwxregexu-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ECB8B317E18ACF0025B6BE /* libwxregexu-3.0.a */; };
+		84ECB91517E18D790025B6BE /* libwxscintilla-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ECB8B417E18ACF0025B6BE /* libwxscintilla-3.0.a */; };
+		84ECB91617E18D790025B6BE /* libwxtiff-3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ECB8B517E18ACF0025B6BE /* libwxtiff-3.0.a */; };
+		84F8CBBB138AADD90012C801 /* default_font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84F8CBAB138AADD90012C801 /* default_font.ttf */; };
+		84F8CBBC138AADD90012C801 /* DKVolumeEditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84F8CBAC138AADD90012C801 /* DKVolumeEditor.cpp */; };
+		84F8CBBD138AADD90012C801 /* DKVolumeEditor.xpm in Resources */ = {isa = PBXBuildFile; fileRef = 84F8CBAE138AADD90012C801 /* DKVolumeEditor.xpm */; };
+		84F8CBBE138AADD90012C801 /* MainWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84F8CBAF138AADD90012C801 /* MainWindow.cpp */; };
+		84F8CBBF138AADD90012C801 /* RenderFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84F8CBB1138AADD90012C801 /* RenderFrame.cpp */; };
+		84F8CBC0138AADD90012C801 /* RenderWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84F8CBB3138AADD90012C801 /* RenderWindow.cpp */; };
+		84F8CBC2138AADD90012C801 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84F8CBB7138AADD90012C801 /* stdafx.cpp */; };
+		84F8CBDC138AB1B80012C801 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F8CBCD138AB1B80012C801 /* AppKit.framework */; };
+		84F8CBDD138AB1B80012C801 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F8CBCE138AB1B80012C801 /* IOKit.framework */; };
+		84F8CBDE138AB1B80012C801 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F8CBCF138AB1B80012C801 /* OpenAL.framework */; };
+		84F8CBDF138AB1B80012C801 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F8CBD0138AB1B80012C801 /* OpenGL.framework */; };
+		84F8CBE0138AB1B80012C801 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F8CBD1138AB1B80012C801 /* Carbon.framework */; };
+		84F8CBE1138AB1B80012C801 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F8CBD2138AB1B80012C801 /* libiconv.dylib */; };
+		84FA83C8166F81570014115F /* libDK_OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FA8116166F5AEA0014115F /* libDK_OSX.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84A66BC619299E4F0086056F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA805E166F59900014115F /* DK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 840CA4ED1928946800689BB6;
+			remoteInfo = DK;
+		};
+		84EDCCCF16F5744900459B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA8060166F599D0014115F /* DKUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84C2F14D14722E08009516DD;
+			remoteInfo = DKUtils_OSX;
+		};
+		84EDCCD116F5744900459B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA8060166F599D0014115F /* DKUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84C2F0FA14722D3D009516DD;
+			remoteInfo = DKUtils_iOS;
+		};
+		84FA8115166F5AEA0014115F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA805E166F59900014115F /* DK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84E42A5C13AF8B4200BF31EA;
+			remoteInfo = DK_OSX;
+		};
+		84FA8117166F5AEA0014115F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA805E166F59900014115F /* DK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84E42A5D13AF8B4200BF31EA;
+			remoteInfo = DK_iOS;
+		};
+		84FA83C4166F81490014115F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA805E166F59900014115F /* DK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC045055464E500DB518D;
+			remoteInfo = DK_OSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84A00150171A77F80085C420 /* libexpat.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libexpat.dylib; path = usr/lib/libexpat.dylib; sourceTree = SDKROOT; };
+		84A00152171A78D90085C420 /* ui.fbp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ui.fbp; sourceTree = "<group>"; };
+		84A00153171A78D90085C420 /* ui.xrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ui.xrc; sourceTree = "<group>"; };
+		84C736B217216FE0008264AF /* Polygonizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = Polygonizer.cpp; sourceTree = "<group>"; };
+		84C736B317216FE0008264AF /* Polygonizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Polygonizer.h; sourceTree = "<group>"; };
+		84C736B817216FF5008264AF /* voxel.DKMATERIAL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = voxel.DKMATERIAL; sourceTree = "<group>"; };
+		84E42C6013AF9A3800BF31EA /* DKVolumeEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKVolumeEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84ECB8AF17E18ACF0025B6BE /* libwx_osx_cocoau-3.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libwx_osx_cocoau-3.0.a"; sourceTree = "<group>"; };
+		84ECB8B017E18ACF0025B6BE /* libwx_osx_cocoau_gl-3.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libwx_osx_cocoau_gl-3.0.a"; sourceTree = "<group>"; };
+		84ECB8B117E18ACF0025B6BE /* libwxjpeg-3.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libwxjpeg-3.0.a"; sourceTree = "<group>"; };
+		84ECB8B217E18ACF0025B6BE /* libwxpng-3.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libwxpng-3.0.a"; sourceTree = "<group>"; };
+		84ECB8B317E18ACF0025B6BE /* libwxregexu-3.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libwxregexu-3.0.a"; sourceTree = "<group>"; };
+		84ECB8B417E18ACF0025B6BE /* libwxscintilla-3.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libwxscintilla-3.0.a"; sourceTree = "<group>"; };
+		84ECB8B517E18ACF0025B6BE /* libwxtiff-3.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libwxtiff-3.0.a"; sourceTree = "<group>"; };
+		84F8CBAB138AADD90012C801 /* default_font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = default_font.ttf; sourceTree = "<group>"; };
+		84F8CBAC138AADD90012C801 /* DKVolumeEditor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = DKVolumeEditor.cpp; sourceTree = "<group>"; };
+		84F8CBAD138AADD90012C801 /* DKVolumeEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DKVolumeEditor.h; sourceTree = "<group>"; };
+		84F8CBAE138AADD90012C801 /* DKVolumeEditor.xpm */ = {isa = PBXFileReference; fileEncoding = 2147486016; lastKnownFileType = text; lineEnding = 2; path = DKVolumeEditor.xpm; sourceTree = "<group>"; };
+		84F8CBAF138AADD90012C801 /* MainWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = MainWindow.cpp; sourceTree = "<group>"; };
+		84F8CBB0138AADD90012C801 /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MainWindow.h; sourceTree = "<group>"; };
+		84F8CBB1138AADD90012C801 /* RenderFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = RenderFrame.cpp; sourceTree = "<group>"; };
+		84F8CBB2138AADD90012C801 /* RenderFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = RenderFrame.h; sourceTree = "<group>"; };
+		84F8CBB3138AADD90012C801 /* RenderWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = RenderWindow.cpp; sourceTree = "<group>"; };
+		84F8CBB4138AADD90012C801 /* RenderWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = RenderWindow.h; sourceTree = "<group>"; };
+		84F8CBB5138AADD90012C801 /* Resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Resource.h; sourceTree = "<group>"; };
+		84F8CBB7138AADD90012C801 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = stdafx.cpp; sourceTree = "<group>"; };
+		84F8CBB8138AADD90012C801 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = stdafx.h; sourceTree = "<group>"; };
+		84F8CBB9138AADD90012C801 /* targetver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = targetver.h; sourceTree = "<group>"; };
+		84F8CBC8138AAFD20012C801 /* DKVolumeEditor-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DKVolumeEditor-Info.plist"; sourceTree = "<group>"; };
+		84F8CBC9138AAFD20012C801 /* DKVolumeEditor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 2147486016; lastKnownFileType = sourcecode.c.h; lineEnding = 2; path = "DKVolumeEditor-Prefix.pch"; sourceTree = "<group>"; };
+		84F8CBCD138AB1B80012C801 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppKit.framework; sourceTree = "<group>"; };
+		84F8CBCE138AB1B80012C801 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IOKit.framework; sourceTree = "<group>"; };
+		84F8CBCF138AB1B80012C801 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenAL.framework; sourceTree = "<group>"; };
+		84F8CBD0138AB1B80012C801 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenGL.framework; sourceTree = "<group>"; };
+		84F8CBD1138AB1B80012C801 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Carbon.framework; sourceTree = "<group>"; };
+		84F8CBD2138AB1B80012C801 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		84FA805E166F59900014115F /* DK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DK.xcodeproj; path = ../../DK/DK.xcodeproj; sourceTree = "<group>"; };
+		84FA8060166F599D0014115F /* DKUtils.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DKUtils.xcodeproj; path = ../../Extras/DKUtils/DKUtils.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84F8CB10138AA1E40012C801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84ECB91517E18D790025B6BE /* libwxscintilla-3.0.a in Frameworks */,
+				84FA83C8166F81570014115F /* libDK_OSX.a in Frameworks */,
+				8486E45817DDCB7F00C5F1CD /* libexpat.dylib in Frameworks */,
+				84ECB91617E18D790025B6BE /* libwxtiff-3.0.a in Frameworks */,
+				84ECB91217E18D790025B6BE /* libwxjpeg-3.0.a in Frameworks */,
+				84F8CBE1138AB1B80012C801 /* libiconv.dylib in Frameworks */,
+				84F8CBDC138AB1B80012C801 /* AppKit.framework in Frameworks */,
+				84ECB91117E18D790025B6BE /* libwx_osx_cocoau_gl-3.0.a in Frameworks */,
+				84F8CBDD138AB1B80012C801 /* IOKit.framework in Frameworks */,
+				84ECB91017E18D790025B6BE /* libwx_osx_cocoau-3.0.a in Frameworks */,
+				84F8CBDE138AB1B80012C801 /* OpenAL.framework in Frameworks */,
+				84F8CBDF138AB1B80012C801 /* OpenGL.framework in Frameworks */,
+				84ECB91317E18D790025B6BE /* libwxpng-3.0.a in Frameworks */,
+				84F8CBE0138AB1B80012C801 /* Carbon.framework in Frameworks */,
+				84ECB91417E18D790025B6BE /* libwxregexu-3.0.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8478B30C160475C7008E31B4 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				84A00150171A77F80085C420 /* libexpat.dylib */,
+				84F8CBD2138AB1B80012C801 /* libiconv.dylib */,
+				84ECB8B617E18ACF0025B6BE /* wxWidgets */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		84E42C7413AF9A3F00BF31EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E42C6013AF9A3800BF31EA /* DKVolumeEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84ECB8B617E18ACF0025B6BE /* wxWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				84ECB8AF17E18ACF0025B6BE /* libwx_osx_cocoau-3.0.a */,
+				84ECB8B017E18ACF0025B6BE /* libwx_osx_cocoau_gl-3.0.a */,
+				84ECB8B117E18ACF0025B6BE /* libwxjpeg-3.0.a */,
+				84ECB8B217E18ACF0025B6BE /* libwxpng-3.0.a */,
+				84ECB8B317E18ACF0025B6BE /* libwxregexu-3.0.a */,
+				84ECB8B417E18ACF0025B6BE /* libwxscintilla-3.0.a */,
+				84ECB8B517E18ACF0025B6BE /* libwxtiff-3.0.a */,
+			);
+			name = wxWidgets;
+			path = ../wxWidgets/lib;
+			sourceTree = SOURCE_ROOT;
+		};
+		84EDCCC416F5744900459B97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84EDCCD016F5744900459B97 /* libIGUtils_OSX.a */,
+				84EDCCD216F5744900459B97 /* libIGUtils_iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84F8CB08138AA1E40012C801 = {
+			isa = PBXGroup;
+			children = (
+				84FA805E166F59900014115F /* DK.xcodeproj */,
+				84FA8060166F599D0014115F /* DKUtils.xcodeproj */,
+				84F8CBA8138AA35A0012C801 /* Classes */,
+				84F8CBCB138AB1B80012C801 /* Frameworks */,
+				8478B30C160475C7008E31B4 /* libs */,
+				84F8CBA7138AA3560012C801 /* Other Sources */,
+				84E42C7413AF9A3F00BF31EA /* Products */,
+				84F8CBA6138AA34B0012C801 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		84F8CBA6138AA34B0012C801 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84F8CBAB138AADD90012C801 /* default_font.ttf */,
+				84F8CBC8138AAFD20012C801 /* DKVolumeEditor-Info.plist */,
+				84F8CBAE138AADD90012C801 /* DKVolumeEditor.xpm */,
+				84A00152171A78D90085C420 /* ui.fbp */,
+				84A00153171A78D90085C420 /* ui.xrc */,
+				84C736B817216FF5008264AF /* voxel.DKMATERIAL */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		84F8CBA7138AA3560012C801 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				84F8CBC9138AAFD20012C801 /* DKVolumeEditor-Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		84F8CBA8138AA35A0012C801 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				84F8CBAC138AADD90012C801 /* DKVolumeEditor.cpp */,
+				84F8CBAD138AADD90012C801 /* DKVolumeEditor.h */,
+				84F8CBAF138AADD90012C801 /* MainWindow.cpp */,
+				84F8CBB0138AADD90012C801 /* MainWindow.h */,
+				84C736B217216FE0008264AF /* Polygonizer.cpp */,
+				84C736B317216FE0008264AF /* Polygonizer.h */,
+				84F8CBB1138AADD90012C801 /* RenderFrame.cpp */,
+				84F8CBB2138AADD90012C801 /* RenderFrame.h */,
+				84F8CBB3138AADD90012C801 /* RenderWindow.cpp */,
+				84F8CBB4138AADD90012C801 /* RenderWindow.h */,
+				84F8CBB5138AADD90012C801 /* Resource.h */,
+				84F8CBB7138AADD90012C801 /* stdafx.cpp */,
+				84F8CBB8138AADD90012C801 /* stdafx.h */,
+				84F8CBB9138AADD90012C801 /* targetver.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		84F8CBCB138AB1B80012C801 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84F8CBCD138AB1B80012C801 /* AppKit.framework */,
+				84F8CBD1138AB1B80012C801 /* Carbon.framework */,
+				84F8CBCE138AB1B80012C801 /* IOKit.framework */,
+				84F8CBCF138AB1B80012C801 /* OpenAL.framework */,
+				84F8CBD0138AB1B80012C801 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks;
+			sourceTree = DEVELOPER_DIR;
+		};
+		84FA80EF166F5AEA0014115F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84FA8116166F5AEA0014115F /* libDK_OSX.a */,
+				84FA8118166F5AEA0014115F /* libDK_iOS.a */,
+				84A66BC719299E4F0086056F /* DK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84F8CB12138AA1E40012C801 /* DKVolumeEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F8CB31138AA1E40012C801 /* Build configuration list for PBXNativeTarget "DKVolumeEditor" */;
+			buildPhases = (
+				84F8CB0F138AA1E40012C801 /* Sources */,
+				84F8CB10138AA1E40012C801 /* Frameworks */,
+				84F8CB11138AA1E40012C801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FA83C5166F81490014115F /* PBXTargetDependency */,
+			);
+			name = DKVolumeEditor;
+			productName = DKVolumeEditor;
+			productReference = 84E42C6013AF9A3800BF31EA /* DKVolumeEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84F8CB0A138AA1E40012C801 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = ICONDB.COM;
+			};
+			buildConfigurationList = 84F8CB0D138AA1E40012C801 /* Build configuration list for PBXProject "DKVolumeEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84F8CB08138AA1E40012C801;
+			productRefGroup = 84F8CB08138AA1E40012C801;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 84FA80EF166F5AEA0014115F /* Products */;
+					ProjectRef = 84FA805E166F59900014115F /* DK.xcodeproj */;
+				},
+				{
+					ProductGroup = 84EDCCC416F5744900459B97 /* Products */;
+					ProjectRef = 84FA8060166F599D0014115F /* DKUtils.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				84F8CB12138AA1E40012C801 /* DKVolumeEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		84A66BC719299E4F0086056F /* DK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DK.framework;
+			remoteRef = 84A66BC619299E4F0086056F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84EDCCD016F5744900459B97 /* libIGUtils_OSX.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libIGUtils_OSX.a;
+			remoteRef = 84EDCCCF16F5744900459B97 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84EDCCD216F5744900459B97 /* libIGUtils_iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libIGUtils_iOS.a;
+			remoteRef = 84EDCCD116F5744900459B97 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84FA8116166F5AEA0014115F /* libDK_OSX.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDK_OSX.a;
+			remoteRef = 84FA8115166F5AEA0014115F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84FA8118166F5AEA0014115F /* libDK_iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDK_iOS.a;
+			remoteRef = 84FA8117166F5AEA0014115F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84F8CB11138AA1E40012C801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F8CBBB138AADD90012C801 /* default_font.ttf in Resources */,
+				84F8CBBD138AADD90012C801 /* DKVolumeEditor.xpm in Resources */,
+				84A00155171A78D90085C420 /* ui.xrc in Resources */,
+				84C736B917216FF5008264AF /* voxel.DKMATERIAL in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84F8CB0F138AA1E40012C801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F8CBBC138AADD90012C801 /* DKVolumeEditor.cpp in Sources */,
+				84F8CBBE138AADD90012C801 /* MainWindow.cpp in Sources */,
+				84F8CBBF138AADD90012C801 /* RenderFrame.cpp in Sources */,
+				84F8CBC0138AADD90012C801 /* RenderWindow.cpp in Sources */,
+				84F8CBC2138AADD90012C801 /* stdafx.cpp in Sources */,
+				84C736B417216FE0008264AF /* Polygonizer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84FA83C5166F81490014115F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DK_OSX;
+			targetProxy = 84FA83C4166F81490014115F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84F8CB2F138AA1E40012C801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					__WXOSX_COCOA__,
+					"_FILE_OFFSET_BITS=64",
+					_LARGE_FILES,
+					WX_PRECOMP,
+					"wxDEBUG_LEVEL=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../DK;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84F8CB30138AA1E40012C801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NDEBUG=1",
+					__WXOSX_COCOA__,
+					"_FILE_OFFSET_BITS=64",
+					_LARGE_FILES,
+					WX_PRECOMP,
+					"wxDEBUG_LEVEL=0",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../DK;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84F8CB32138AA1E40012C801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DKVolumeEditor-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					../wxWidgets/trunk/include,
+					"../wxWidgets/lib/wx/include/osx_cocoa-unicode-static-3.0",
+				);
+				INFOPLIST_FILE = "DKVolumeEditor-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../wxWidgets/lib,
+					/Users/tiff/Desktop/DK3/Tools/wxWidgets/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = DKVolumeEditor;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84F8CB33138AA1E40012C801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DKVolumeEditor-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					../wxWidgets/trunk/include,
+					"../wxWidgets/lib/wx/include/osx_cocoa-unicode-static-3.0",
+				);
+				INFOPLIST_FILE = "DKVolumeEditor-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../wxWidgets/lib,
+					/Users/tiff/Desktop/DK3/Tools/wxWidgets/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = DKVolumeEditor;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84F8CB0D138AA1E40012C801 /* Build configuration list for PBXProject "DKVolumeEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F8CB2F138AA1E40012C801 /* Debug */,
+				84F8CB30138AA1E40012C801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F8CB31138AA1E40012C801 /* Build configuration list for PBXNativeTarget "DKVolumeEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F8CB32138AA1E40012C801 /* Debug */,
+				84F8CB33138AA1E40012C801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84F8CB0A138AA1E40012C801 /* Project object */;
+}

@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8490A7BE1476210600625699 /* AudioPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8490A78814761A2F00625699 /* AudioPlayer.cpp */; };
+		8490A7BF1476210600625699 /* AudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8490A78914761A2F00625699 /* AudioPlayer.h */; };
+		8490A7C01476210600625699 /* AudioPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8490A78A14761A2F00625699 /* AudioPlayer.mm */; };
+		8490A7C11476210600625699 /* FrameButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8490A78B14761A2F00625699 /* FrameButton.cpp */; };
+		8490A7C21476210600625699 /* FrameButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8490A78C14761A2F00625699 /* FrameButton.h */; };
+		8490A7C31476210600625699 /* GyroScope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8490A78D14761A2F00625699 /* GyroScope.cpp */; };
+		8490A7C41476210600625699 /* GyroScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 8490A78E14761A2F00625699 /* GyroScope.h */; };
+		8490A7C51476210600625699 /* GyroScope.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8490A78F14761A2F00625699 /* GyroScope.mm */; };
+		8490A7C61476210600625699 /* DKUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8490A79014761A2F00625699 /* DKUtils.h */; };
+		8490A7C71476210600625699 /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8490A79114761A2F00625699 /* Sprite.cpp */; };
+		8490A7C81476210600625699 /* Sprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 8490A79214761A2F00625699 /* Sprite.h */; };
+		8490A7C91476210600625699 /* TexturePack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8490A79314761A2F00625699 /* TexturePack.cpp */; };
+		8490A7CA1476210600625699 /* TexturePack.h in Headers */ = {isa = PBXBuildFile; fileRef = 8490A79414761A2F00625699 /* TexturePack.h */; };
+		8490A7CB1476210700625699 /* AudioPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8490A78814761A2F00625699 /* AudioPlayer.cpp */; };
+		8490A7CC1476210700625699 /* AudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8490A78914761A2F00625699 /* AudioPlayer.h */; };
+		8490A7CD1476210700625699 /* AudioPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8490A78A14761A2F00625699 /* AudioPlayer.mm */; };
+		8490A7CE1476210700625699 /* FrameButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8490A78B14761A2F00625699 /* FrameButton.cpp */; };
+		8490A7CF1476210700625699 /* FrameButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8490A78C14761A2F00625699 /* FrameButton.h */; };
+		8490A7D01476210700625699 /* GyroScope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8490A78D14761A2F00625699 /* GyroScope.cpp */; };
+		8490A7D11476210700625699 /* GyroScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 8490A78E14761A2F00625699 /* GyroScope.h */; };
+		8490A7D21476210700625699 /* GyroScope.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8490A78F14761A2F00625699 /* GyroScope.mm */; };
+		8490A7D31476210700625699 /* DKUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8490A79014761A2F00625699 /* DKUtils.h */; };
+		8490A7D41476210700625699 /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8490A79114761A2F00625699 /* Sprite.cpp */; };
+		8490A7D51476210700625699 /* Sprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 8490A79214761A2F00625699 /* Sprite.h */; };
+		8490A7D61476210700625699 /* TexturePack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8490A79314761A2F00625699 /* TexturePack.cpp */; };
+		8490A7D71476210700625699 /* TexturePack.h in Headers */ = {isa = PBXBuildFile; fileRef = 8490A79414761A2F00625699 /* TexturePack.h */; };
+		84A327B71487797600E4C28D /* AppStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A327B41487797600E4C28D /* AppStore.cpp */; };
+		84A327B81487797600E4C28D /* AppStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A327B41487797600E4C28D /* AppStore.cpp */; };
+		84A327B91487797600E4C28D /* AppStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A327B51487797600E4C28D /* AppStore.h */; };
+		84A327BA1487797600E4C28D /* AppStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A327B51487797600E4C28D /* AppStore.h */; };
+		84A327BB1487797600E4C28D /* AppStore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84A327B61487797600E4C28D /* AppStore.mm */; };
+		84A327BC1487797600E4C28D /* AppStore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84A327B61487797600E4C28D /* AppStore.mm */; };
+		84A327BF148779A000E4C28D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A327BE148779A000E4C28D /* StoreKit.framework */; };
+		84A327C1148779AC00E4C28D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A327C0148779AC00E4C28D /* StoreKit.framework */; };
+		84C2F0FE14722D3D009516DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C2F0FD14722D3D009516DD /* Foundation.framework */; };
+		84C2F15314722EFE009516DD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C2F15214722EFE009516DD /* CoreLocation.framework */; };
+		84C2F1581472301E009516DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C2F1571472301D009516DD /* Foundation.framework */; };
+		84C2F15A14723024009516DD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C2F15914723024009516DD /* CoreLocation.framework */; };
+		84C2F15C14723029009516DD /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C2F15B14723029009516DD /* AppKit.framework */; };
+		84C2F15E1472303B009516DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C2F15D1472303B009516DD /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8490A78814761A2F00625699 /* AudioPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = AudioPlayer.cpp; sourceTree = SOURCE_ROOT; };
+		8490A78914761A2F00625699 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AudioPlayer.h; sourceTree = SOURCE_ROOT; };
+		8490A78A14761A2F00625699 /* AudioPlayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = AudioPlayer.mm; sourceTree = SOURCE_ROOT; };
+		8490A78B14761A2F00625699 /* FrameButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = FrameButton.cpp; sourceTree = SOURCE_ROOT; };
+		8490A78C14761A2F00625699 /* FrameButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = FrameButton.h; sourceTree = SOURCE_ROOT; };
+		8490A78D14761A2F00625699 /* GyroScope.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = GyroScope.cpp; sourceTree = SOURCE_ROOT; };
+		8490A78E14761A2F00625699 /* GyroScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GyroScope.h; sourceTree = SOURCE_ROOT; };
+		8490A78F14761A2F00625699 /* GyroScope.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = GyroScope.mm; sourceTree = SOURCE_ROOT; };
+		8490A79014761A2F00625699 /* DKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DKUtils.h; sourceTree = SOURCE_ROOT; };
+		8490A79114761A2F00625699 /* Sprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = Sprite.cpp; sourceTree = SOURCE_ROOT; };
+		8490A79214761A2F00625699 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Sprite.h; sourceTree = SOURCE_ROOT; };
+		8490A79314761A2F00625699 /* TexturePack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = TexturePack.cpp; sourceTree = SOURCE_ROOT; };
+		8490A79414761A2F00625699 /* TexturePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TexturePack.h; sourceTree = SOURCE_ROOT; };
+		84A327B41487797600E4C28D /* AppStore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = AppStore.cpp; sourceTree = SOURCE_ROOT; };
+		84A327B51487797600E4C28D /* AppStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppStore.h; sourceTree = SOURCE_ROOT; };
+		84A327B61487797600E4C28D /* AppStore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = AppStore.mm; sourceTree = SOURCE_ROOT; };
+		84A327BE148779A000E4C28D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		84A327C0148779AC00E4C28D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		84C2F0FA14722D3D009516DD /* libDKUtils_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDKUtils_iOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C2F0FD14722D3D009516DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		84C2F14D14722E08009516DD /* libDKUtils_OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDKUtils_OSX.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C2F15214722EFE009516DD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		84C2F1571472301D009516DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84C2F15914723024009516DD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		84C2F15B14723029009516DD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		84C2F15D1472303B009516DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C2F0F714722D3D009516DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A327C1148779AC00E4C28D /* StoreKit.framework in Frameworks */,
+				84C2F15E1472303B009516DD /* UIKit.framework in Frameworks */,
+				84C2F15314722EFE009516DD /* CoreLocation.framework in Frameworks */,
+				84C2F0FE14722D3D009516DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C2F14A14722E08009516DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A327BF148779A000E4C28D /* StoreKit.framework in Frameworks */,
+				84C2F15C14723029009516DD /* AppKit.framework in Frameworks */,
+				84C2F15A14723024009516DD /* CoreLocation.framework in Frameworks */,
+				84C2F1581472301E009516DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C2F0EF14722D3D009516DD = {
+			isa = PBXGroup;
+			children = (
+				84C2F15614722FF3009516DD /* Frameworks_OSX */,
+				84C2F0FC14722D3D009516DD /* Frameworks_iOS */,
+				84C2F0FF14722D3D009516DD /* Sources */,
+				84C2F0FB14722D3D009516DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C2F0FB14722D3D009516DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C2F0FA14722D3D009516DD /* libDKUtils_iOS.a */,
+				84C2F14D14722E08009516DD /* libDKUtils_OSX.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C2F0FC14722D3D009516DD /* Frameworks_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				84C2F15214722EFE009516DD /* CoreLocation.framework */,
+				84C2F0FD14722D3D009516DD /* Foundation.framework */,
+				84A327C0148779AC00E4C28D /* StoreKit.framework */,
+				84C2F15D1472303B009516DD /* UIKit.framework */,
+			);
+			name = Frameworks_iOS;
+			sourceTree = "<group>";
+		};
+		84C2F0FF14722D3D009516DD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				84A327B41487797600E4C28D /* AppStore.cpp */,
+				84A327B51487797600E4C28D /* AppStore.h */,
+				84A327B61487797600E4C28D /* AppStore.mm */,
+				8490A78814761A2F00625699 /* AudioPlayer.cpp */,
+				8490A78914761A2F00625699 /* AudioPlayer.h */,
+				8490A78A14761A2F00625699 /* AudioPlayer.mm */,
+				8490A78B14761A2F00625699 /* FrameButton.cpp */,
+				8490A78C14761A2F00625699 /* FrameButton.h */,
+				8490A78D14761A2F00625699 /* GyroScope.cpp */,
+				8490A78E14761A2F00625699 /* GyroScope.h */,
+				8490A78F14761A2F00625699 /* GyroScope.mm */,
+				8490A79114761A2F00625699 /* Sprite.cpp */,
+				8490A79214761A2F00625699 /* Sprite.h */,
+				8490A79314761A2F00625699 /* TexturePack.cpp */,
+				8490A79414761A2F00625699 /* TexturePack.h */,
+				8490A79014761A2F00625699 /* DKUtils.h */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		84C2F15614722FF3009516DD /* Frameworks_OSX */ = {
+			isa = PBXGroup;
+			children = (
+				84C2F15B14723029009516DD /* AppKit.framework */,
+				84C2F15914723024009516DD /* CoreLocation.framework */,
+				84C2F1571472301D009516DD /* Foundation.framework */,
+				84A327BE148779A000E4C28D /* StoreKit.framework */,
+			);
+			name = Frameworks_OSX;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		84C2F0F814722D3D009516DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8490A7CC1476210700625699 /* AudioPlayer.h in Headers */,
+				8490A7CF1476210700625699 /* FrameButton.h in Headers */,
+				8490A7D11476210700625699 /* GyroScope.h in Headers */,
+				8490A7D31476210700625699 /* DKUtils.h in Headers */,
+				8490A7D51476210700625699 /* Sprite.h in Headers */,
+				8490A7D71476210700625699 /* TexturePack.h in Headers */,
+				84A327B91487797600E4C28D /* AppStore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C2F14B14722E08009516DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8490A7BF1476210600625699 /* AudioPlayer.h in Headers */,
+				8490A7C21476210600625699 /* FrameButton.h in Headers */,
+				8490A7C41476210600625699 /* GyroScope.h in Headers */,
+				8490A7C61476210600625699 /* DKUtils.h in Headers */,
+				8490A7C81476210600625699 /* Sprite.h in Headers */,
+				8490A7CA1476210600625699 /* TexturePack.h in Headers */,
+				84A327BA1487797600E4C28D /* AppStore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		84C2F0F914722D3D009516DD /* DKUtils_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C2F10714722D3D009516DD /* Build configuration list for PBXNativeTarget "DKUtils_iOS" */;
+			buildPhases = (
+				84C2F0F614722D3D009516DD /* Sources */,
+				84C2F0F714722D3D009516DD /* Frameworks */,
+				84C2F0F814722D3D009516DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKUtils_iOS;
+			productName = DKExtras;
+			productReference = 84C2F0FA14722D3D009516DD /* libDKUtils_iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		84C2F14C14722E08009516DD /* DKUtils_OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C2F14E14722E08009516DD /* Build configuration list for PBXNativeTarget "DKUtils_OSX" */;
+			buildPhases = (
+				84C2F14914722E08009516DD /* Sources */,
+				84C2F14A14722E08009516DD /* Frameworks */,
+				84C2F14B14722E08009516DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKUtils_OSX;
+			productName = DKExtras_OSX;
+			productReference = 84C2F14D14722E08009516DD /* libDKUtils_OSX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C2F0F114722D3D009516DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ICONDB.COM;
+			};
+			buildConfigurationList = 84C2F0F414722D3D009516DD /* Build configuration list for PBXProject "DKUtils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84C2F0EF14722D3D009516DD;
+			productRefGroup = 84C2F0FB14722D3D009516DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C2F14C14722E08009516DD /* DKUtils_OSX */,
+				84C2F0F914722D3D009516DD /* DKUtils_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C2F0F614722D3D009516DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8490A7CB1476210700625699 /* AudioPlayer.cpp in Sources */,
+				8490A7CD1476210700625699 /* AudioPlayer.mm in Sources */,
+				8490A7CE1476210700625699 /* FrameButton.cpp in Sources */,
+				8490A7D01476210700625699 /* GyroScope.cpp in Sources */,
+				8490A7D21476210700625699 /* GyroScope.mm in Sources */,
+				8490A7D41476210700625699 /* Sprite.cpp in Sources */,
+				8490A7D61476210700625699 /* TexturePack.cpp in Sources */,
+				84A327B71487797600E4C28D /* AppStore.cpp in Sources */,
+				84A327BB1487797600E4C28D /* AppStore.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C2F14914722E08009516DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8490A7BE1476210600625699 /* AudioPlayer.cpp in Sources */,
+				8490A7C01476210600625699 /* AudioPlayer.mm in Sources */,
+				8490A7C11476210600625699 /* FrameButton.cpp in Sources */,
+				8490A7C31476210600625699 /* GyroScope.cpp in Sources */,
+				8490A7C51476210600625699 /* GyroScope.mm in Sources */,
+				8490A7C71476210600625699 /* Sprite.cpp in Sources */,
+				8490A7C91476210600625699 /* TexturePack.cpp in Sources */,
+				84A327B81487797600E4C28D /* AppStore.cpp in Sources */,
+				84A327BC1487797600E4C28D /* AppStore.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84C2F10514722D3D009516DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../DK;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		84C2F10614722D3D009516DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../DK;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C2F10814722D3D009516DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84C2F10914722D3D009516DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		84C2F14F14722E08009516DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84C2F15014722E08009516DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C2F0F414722D3D009516DD /* Build configuration list for PBXProject "DKUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C2F10514722D3D009516DD /* Debug */,
+				84C2F10614722D3D009516DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C2F10714722D3D009516DD /* Build configuration list for PBXNativeTarget "DKUtils_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C2F10814722D3D009516DD /* Debug */,
+				84C2F10914722D3D009516DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C2F14E14722E08009516DD /* Build configuration list for PBXNativeTarget "DKUtils_OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C2F14F14722E08009516DD /* Debug */,
+				84C2F15014722E08009516DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C2F0F114722D3D009516DD /* Project object */;
+}

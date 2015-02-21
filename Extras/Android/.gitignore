@@ -1,0 +1,8 @@
+
+gen/
+bin/
+libs/
+obj/
+
+jni/Python
+jni/*.xcodeproj/project.xcworkspace

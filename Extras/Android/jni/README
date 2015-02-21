@@ -1,0 +1,12 @@
+
+DK-Android (JNI) 를 빌드하기 위해서는 Python 이 필요하다.
+
+1. https://dev.icondb.com/svn/DK3/branches/Python 을 어딘가에 체크아웃 받는다.
+2. 현재 디렉토리 ( Android/jni/ ) 에서 다운받은 Python 을 링크한다.
+
+    ln -s DOWNLOADED_PYTHON_PATH ./Python
+    
+3. ndk-build
+
+또는 현재 디렉토리에 바로 다운받아도 된다. (디렉토리 명은 Python 이어야 함)
+

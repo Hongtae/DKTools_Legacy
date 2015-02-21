@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840D703E1387E07100E1EB6E /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840D703C1387E07100E1EB6E /* stdafx.cpp */; };
+		840D703F1387E07100E1EB6E /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840D703C1387E07100E1EB6E /* stdafx.cpp */; };
+		8414C789190170BA001C1358 /* Aurora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8414C783190170BA001C1358 /* Aurora.jpg */; };
+		8414C78A190170BA001C1358 /* Aurora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8414C783190170BA001C1358 /* Aurora.jpg */; };
+		8414C78B190170BA001C1358 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8414C784190170BA001C1358 /* Default-568h@2x.png */; };
+		8414C78D190170BA001C1358 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8414C785190170BA001C1358 /* Default.png */; };
+		8414C78F190170BA001C1358 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8414C786190170BA001C1358 /* Icon.png */; };
+		8414C791190170BA001C1358 /* koo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8414C787190170BA001C1358 /* koo.jpg */; };
+		8414C792190170BA001C1358 /* koo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8414C787190170BA001C1358 /* koo.jpg */; };
+		8414C793190170BA001C1358 /* python33.zip in Resources */ = {isa = PBXBuildFile; fileRef = 8414C788190170BA001C1358 /* python33.zip */; };
+		8414C794190170BA001C1358 /* python33.zip in Resources */ = {isa = PBXBuildFile; fileRef = 8414C788190170BA001C1358 /* python33.zip */; };
+		8424078B19090DBB00C46A57 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 84BADA4F18A1DDE000CA0329 /* Fonts */; };
+		8424078C19090DBB00C46A57 /* Scripts in Resources */ = {isa = PBXBuildFile; fileRef = 84A2A2FD186AC2B000BF8A69 /* Scripts */; };
+		8424078D19090DBB00C46A57 /* Sprite in Resources */ = {isa = PBXBuildFile; fileRef = 84D7492C18F6D16700028A4D /* Sprite */; };
+		84857925160467F60086108E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848578BD160467020086108E /* AVFoundation.framework */; };
+		84857926160467F60086108E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848578BE160467020086108E /* CoreLocation.framework */; };
+		84857927160467F60086108E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848578BF160467020086108E /* Foundation.framework */; };
+		84857928160467F60086108E /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848578C0160467020086108E /* OpenAL.framework */; };
+		84857929160467F60086108E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848578C1160467020086108E /* OpenGLES.framework */; };
+		8485792A160467F60086108E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848578C2160467020086108E /* QuartzCore.framework */; };
+		8485792B160467F60086108E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848578C3160467020086108E /* UIKit.framework */; };
+		8485792C1604683E0086108E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848578B8160467020086108E /* AppKit.framework */; };
+		8485792D1604683E0086108E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848578B9160467020086108E /* IOKit.framework */; };
+		8485792E1604683E0086108E /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848578BA160467020086108E /* OpenAL.framework */; };
+		8485792F1604683E0086108E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848578BB160467020086108E /* OpenGL.framework */; };
+		84A2A2FF186AC2B000BF8A69 /* Scripts in Resources */ = {isa = PBXBuildFile; fileRef = 84A2A2FD186AC2B000BF8A69 /* Scripts */; };
+		84A66EED1929C55D0086056F /* PyDK.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A66EEA1929C5530086056F /* PyDK.dylib */; };
+		84A66EEF1929C5830086056F /* PyDK.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84A66EEA1929C5530086056F /* PyDK.dylib */; };
+		84A66EF21929C5B90086056F /* DK.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84A66E551929BC680086056F /* DK.dylib */; };
+		84A66F091929C67E0086056F /* DK.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A66E551929BC680086056F /* DK.dylib */; };
+		84A88B3212253545005E9363 /* TestApp6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A88B3012253545005E9363 /* TestApp6.cpp */; };
+		84B8E81918FFD29C006BFD40 /* libIGPython_iOS_static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8407EE8318FEC1A900C85DBB /* libIGPython_iOS_static.a */; };
+		84BADA5018A1DDE000CA0329 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 84BADA4F18A1DDE000CA0329 /* Fonts */; };
+		84D7492D18F6D16700028A4D /* Sprite in Resources */ = {isa = PBXBuildFile; fileRef = 84D7492C18F6D16700028A4D /* Sprite */; };
+		84F7C962122BDD3700C4A535 /* TestApp6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A88B3012253545005E9363 /* TestApp6.cpp */; };
+		84FA84E3166F8DF50014115F /* libDK_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FA7F73166F58DD0014115F /* libDK_iOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8407EE7E18FEC1A900C85DBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A2A309186AC32800BF8A69 /* PyDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84864BF216E9C0E700CB09ED;
+			remoteInfo = PyDK_OSX;
+		};
+		8407EE8018FEC1A900C85DBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A2A309186AC32800BF8A69 /* PyDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8446F20218FD7C1C0014D21A;
+			remoteInfo = PyDK_OSX_static;
+		};
+		8407EE8218FEC1A900C85DBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A2A309186AC32800BF8A69 /* PyDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84864C1C16E9C1F900CB09ED;
+			remoteInfo = PyDK_iOS_static;
+		};
+		84A66BEF19299F290086056F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA7F22166F58A60014115F /* DK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 840CA4ED1928946800689BB6;
+			remoteInfo = DK;
+		};
+		84A66E541929BC680086056F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA7F22166F58A60014115F /* DK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84A66C141929A6600086056F;
+			remoteInfo = DK.dylib;
+		};
+		84A66E581929BC680086056F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A2A309186AC32800BF8A69 /* PyDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84A66DAF1929ACBC0086056F;
+			remoteInfo = PyDK.framework;
+		};
+		84A66EE91929C5530086056F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A2A309186AC32800BF8A69 /* PyDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84A66E711929C23D0086056F;
+			remoteInfo = PyDK.dylib;
+		};
+		84A66EEB1929C5560086056F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A2A309186AC32800BF8A69 /* PyDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A66E701929C23D0086056F;
+			remoteInfo = PyDK.dylib;
+		};
+		84A66EF01929C5B20086056F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA7F22166F58A60014115F /* DK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A66C131929A6600086056F;
+			remoteInfo = DK.dylib;
+		};
+		84B8EB4C1900FEE4006BFD40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A2A309186AC32800BF8A69 /* PyDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 84864C1316E9C1F900CB09ED;
+			remoteInfo = PyDK_iOS_static;
+		};
+		84FA7F70166F58DD0014115F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA7F22166F58A60014115F /* DK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84E42A5C13AF8B4200BF31EA;
+			remoteInfo = DK_OSX;
+		};
+		84FA7F72166F58DD0014115F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA7F22166F58A60014115F /* DK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84E42A5D13AF8B4200BF31EA;
+			remoteInfo = DK_iOS;
+		};
+		84FA84E1166F8DF10014115F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA7F22166F58A60014115F /* DK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C5F9EC13013FDD005F4449;
+			remoteInfo = DK_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84A66E5B1929BF710086056F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A66EEE1929C57B0086056F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				84A66EF21929C5B90086056F /* DK.dylib in CopyFiles */,
+				84A66EEF1929C5830086056F /* PyDK.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		256AC3F00F4B6AF500CF3369 /* TestApp6_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TestApp6_Prefix.pch; sourceTree = "<group>"; };
+		840D703C1387E07100E1EB6E /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = stdafx.cpp; sourceTree = "<group>"; };
+		840D703D1387E07100E1EB6E /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = stdafx.h; sourceTree = "<group>"; };
+		8414C783190170BA001C1358 /* Aurora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aurora.jpg; sourceTree = "<group>"; };
+		8414C784190170BA001C1358 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8414C785190170BA001C1358 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8414C786190170BA001C1358 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8414C787190170BA001C1358 /* koo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = koo.jpg; sourceTree = "<group>"; };
+		8414C788190170BA001C1358 /* python33.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = python33.zip; sourceTree = "<group>"; };
+		848578B8160467020086108E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppKit.framework; sourceTree = "<group>"; };
+		848578B9160467020086108E /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IOKit.framework; sourceTree = "<group>"; };
+		848578BA160467020086108E /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenAL.framework; sourceTree = "<group>"; };
+		848578BB160467020086108E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenGL.framework; sourceTree = "<group>"; };
+		848578BD160467020086108E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVFoundation.framework; sourceTree = "<group>"; };
+		848578BE160467020086108E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreLocation.framework; sourceTree = "<group>"; };
+		848578BF160467020086108E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Foundation.framework; sourceTree = "<group>"; };
+		848578C0160467020086108E /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenAL.framework; sourceTree = "<group>"; };
+		848578C1160467020086108E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenGLES.framework; sourceTree = "<group>"; };
+		848578C2160467020086108E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuartzCore.framework; sourceTree = "<group>"; };
+		848578C3160467020086108E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UIKit.framework; sourceTree = "<group>"; };
+		84A2A2FD186AC2B000BF8A69 /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Scripts; path = ../Scripts; sourceTree = "<group>"; };
+		84A2A309186AC32800BF8A69 /* PyDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PyDK.xcodeproj; path = ../../PyDK/PyDK.xcodeproj; sourceTree = "<group>"; };
+		84A88B3012253545005E9363 /* TestApp6.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = TestApp6.cpp; sourceTree = "<group>"; };
+		84B8EB761904C78C006BFD40 /* libsystem_m.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_m.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib; sourceTree = DEVELOPER_DIR; };
+		84BADA4F18A1DDE000CA0329 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		84D7492C18F6D16700028A4D /* Sprite */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sprite; sourceTree = "<group>"; };
+		84E42ADA13AF922D00BF31EA /* TestApp6_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp6_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F7C86C122BDB9C00C4A535 /* TestApp6_iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestApp6_iOS-Info.plist"; sourceTree = "<group>"; };
+		84FA7F22166F58A60014115F /* DK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DK.xcodeproj; path = ../../DK/DK.xcodeproj; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* TestApp6_OSX-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TestApp6_OSX-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* TestApp6_OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp6_OSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84F7C868122BDB9C00C4A535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B8E81918FFD29C006BFD40 /* libIGPython_iOS_static.a in Frameworks */,
+				84FA84E3166F8DF50014115F /* libDK_iOS.a in Frameworks */,
+				84857925160467F60086108E /* AVFoundation.framework in Frameworks */,
+				84857926160467F60086108E /* CoreLocation.framework in Frameworks */,
+				84857927160467F60086108E /* Foundation.framework in Frameworks */,
+				84857928160467F60086108E /* OpenAL.framework in Frameworks */,
+				84857929160467F60086108E /* OpenGLES.framework in Frameworks */,
+				8485792A160467F60086108E /* QuartzCore.framework in Frameworks */,
+				8485792B160467F60086108E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A66EED1929C55D0086056F /* PyDK.dylib in Frameworks */,
+				84A66F091929C67E0086056F /* DK.dylib in Frameworks */,
+				8485792C1604683E0086108E /* AppKit.framework in Frameworks */,
+				8485792D1604683E0086108E /* IOKit.framework in Frameworks */,
+				8485792E1604683E0086108E /* OpenAL.framework in Frameworks */,
+				8485792F1604683E0086108E /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				840D703C1387E07100E1EB6E /* stdafx.cpp */,
+				840D703D1387E07100E1EB6E /* stdafx.h */,
+				84A88B3012253545005E9363 /* TestApp6.cpp */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* TestApp6_OSX.app */,
+				84E42ADA13AF922D00BF31EA /* TestApp6_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* TestApp6 */ = {
+			isa = PBXGroup;
+			children = (
+				84A2A309186AC32800BF8A69 /* PyDK.xcodeproj */,
+				84FA7F22166F58A60014115F /* DK.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				848578C4160467020086108E /* Frameworks_iOS */,
+				848578BC160467020086108E /* Frameworks_OSX */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+			);
+			name = TestApp6;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				84F7C86C122BDB9C00C4A535 /* TestApp6_iOS-Info.plist */,
+				8D1107310486CEB800E47090 /* TestApp6_OSX-Info.plist */,
+				256AC3F00F4B6AF500CF3369 /* TestApp6_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84BADA4F18A1DDE000CA0329 /* Fonts */,
+				84A2A2FD186AC2B000BF8A69 /* Scripts */,
+				84D7492C18F6D16700028A4D /* Sprite */,
+				8414C783190170BA001C1358 /* Aurora.jpg */,
+				8414C787190170BA001C1358 /* koo.jpg */,
+				8414C784190170BA001C1358 /* Default-568h@2x.png */,
+				8414C785190170BA001C1358 /* Default.png */,
+				8414C786190170BA001C1358 /* Icon.png */,
+				8414C788190170BA001C1358 /* python33.zip */,
+			);
+			name = Resources;
+			path = ../../Resources;
+			sourceTree = "<group>";
+		};
+		8407EE7918FEC1A900C85DBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8407EE7F18FEC1A900C85DBB /* _iglib_core.so */,
+				8407EE8118FEC1A900C85DBB /* libIGPython_OSX_static.a */,
+				8407EE8318FEC1A900C85DBB /* libIGPython_iOS_static.a */,
+				84A66E591929BC680086056F /* PyDK.framework */,
+				84A66EEA1929C5530086056F /* PyDK.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848578BC160467020086108E /* Frameworks_OSX */ = {
+			isa = PBXGroup;
+			children = (
+				848578B8160467020086108E /* AppKit.framework */,
+				848578B9160467020086108E /* IOKit.framework */,
+				848578BA160467020086108E /* OpenAL.framework */,
+				848578BB160467020086108E /* OpenGL.framework */,
+			);
+			name = Frameworks_OSX;
+			path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks;
+			sourceTree = DEVELOPER_DIR;
+		};
+		848578C4160467020086108E /* Frameworks_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				84B8EB761904C78C006BFD40 /* libsystem_m.dylib */,
+				848578BD160467020086108E /* AVFoundation.framework */,
+				848578BE160467020086108E /* CoreLocation.framework */,
+				848578BF160467020086108E /* Foundation.framework */,
+				848578C0160467020086108E /* OpenAL.framework */,
+				848578C1160467020086108E /* OpenGLES.framework */,
+				848578C2160467020086108E /* QuartzCore.framework */,
+				848578C3160467020086108E /* UIKit.framework */,
+			);
+			name = Frameworks_iOS;
+			path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks;
+			sourceTree = DEVELOPER_DIR;
+		};
+		84FA7F50166F58DD0014115F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84FA7F71166F58DD0014115F /* libDK_OSX.a */,
+				84FA7F73166F58DD0014115F /* libDK_iOS.a */,
+				84A66BF019299F290086056F /* DK.framework */,
+				84A66E551929BC680086056F /* DK.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84F7C869122BDB9C00C4A535 /* TestApp6_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F7C86F122BDB9C00C4A535 /* Build configuration list for PBXNativeTarget "TestApp6_iOS" */;
+			buildPhases = (
+				84F7C866122BDB9C00C4A535 /* Resources */,
+				84F7C867122BDB9C00C4A535 /* Sources */,
+				84F7C868122BDB9C00C4A535 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FA84E2166F8DF10014115F /* PBXTargetDependency */,
+				84B8EB4D1900FEE4006BFD40 /* PBXTargetDependency */,
+			);
+			name = TestApp6_iOS;
+			productName = TestApp6iOS;
+			productReference = 84E42ADA13AF922D00BF31EA /* TestApp6_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D1107260486CEB800E47090 /* TestApp6_OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TestApp6_OSX" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				84A66E5B1929BF710086056F /* CopyFiles */,
+				84A66EEE1929C57B0086056F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A66EF11929C5B20086056F /* PBXTargetDependency */,
+				84A66EEC1929C5560086056F /* PBXTargetDependency */,
+			);
+			name = TestApp6_OSX;
+			productInstallPath = "$(HOME)/Applications";
+			productName = TestApp6;
+			productReference = 8D1107320486CEB800E47090 /* TestApp6_OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = ICONDB.COM;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TestApp6" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* TestApp6 */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 84FA7F50166F58DD0014115F /* Products */;
+					ProjectRef = 84FA7F22166F58A60014115F /* DK.xcodeproj */;
+				},
+				{
+					ProductGroup = 8407EE7918FEC1A900C85DBB /* Products */;
+					ProjectRef = 84A2A309186AC32800BF8A69 /* PyDK.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				84F7C869122BDB9C00C4A535 /* TestApp6_iOS */,
+				8D1107260486CEB800E47090 /* TestApp6_OSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8407EE7F18FEC1A900C85DBB /* _iglib_core.so */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = _iglib_core.so;
+			remoteRef = 8407EE7E18FEC1A900C85DBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8407EE8118FEC1A900C85DBB /* libIGPython_OSX_static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libIGPython_OSX_static.a;
+			remoteRef = 8407EE8018FEC1A900C85DBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8407EE8318FEC1A900C85DBB /* libIGPython_iOS_static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libIGPython_iOS_static.a;
+			remoteRef = 8407EE8218FEC1A900C85DBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84A66BF019299F290086056F /* DK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DK.framework;
+			remoteRef = 84A66BEF19299F290086056F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84A66E551929BC680086056F /* DK.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = DK.dylib;
+			remoteRef = 84A66E541929BC680086056F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84A66E591929BC680086056F /* PyDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PyDK.framework;
+			remoteRef = 84A66E581929BC680086056F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84A66EEA1929C5530086056F /* PyDK.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = PyDK.dylib;
+			remoteRef = 84A66EE91929C5530086056F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84FA7F71166F58DD0014115F /* libDK_OSX.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDK_OSX.a;
+			remoteRef = 84FA7F70166F58DD0014115F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84FA7F73166F58DD0014115F /* libDK_iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDK_iOS.a;
+			remoteRef = 84FA7F72166F58DD0014115F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84F7C866122BDB9C00C4A535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BADA5018A1DDE000CA0329 /* Fonts in Resources */,
+				84A2A2FF186AC2B000BF8A69 /* Scripts in Resources */,
+				84D7492D18F6D16700028A4D /* Sprite in Resources */,
+				8414C793190170BA001C1358 /* python33.zip in Resources */,
+				8414C78B190170BA001C1358 /* Default-568h@2x.png in Resources */,
+				8414C789190170BA001C1358 /* Aurora.jpg in Resources */,
+				8414C78F190170BA001C1358 /* Icon.png in Resources */,
+				8414C78D190170BA001C1358 /* Default.png in Resources */,
+				8414C791190170BA001C1358 /* koo.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8424078B19090DBB00C46A57 /* Fonts in Resources */,
+				8424078C19090DBB00C46A57 /* Scripts in Resources */,
+				8424078D19090DBB00C46A57 /* Sprite in Resources */,
+				8414C794190170BA001C1358 /* python33.zip in Resources */,
+				8414C792190170BA001C1358 /* koo.jpg in Resources */,
+				8414C78A190170BA001C1358 /* Aurora.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84F7C867122BDB9C00C4A535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F7C962122BDD3700C4A535 /* TestApp6.cpp in Sources */,
+				840D703F1387E07100E1EB6E /* stdafx.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A88B3212253545005E9363 /* TestApp6.cpp in Sources */,
+				840D703E1387E07100E1EB6E /* stdafx.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84A66EEC1929C5560086056F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PyDK.dylib;
+			targetProxy = 84A66EEB1929C5560086056F /* PBXContainerItemProxy */;
+		};
+		84A66EF11929C5B20086056F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DK.dylib;
+			targetProxy = 84A66EF01929C5B20086056F /* PBXContainerItemProxy */;
+		};
+		84B8EB4D1900FEE4006BFD40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PyDK_iOS_static;
+			targetProxy = 84B8EB4C1900FEE4006BFD40 /* PBXContainerItemProxy */;
+		};
+		84FA84E2166F8DF10014115F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DK_iOS;
+			targetProxy = 84FA84E1166F8DF10014115F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84F7C86D122BDB9C00C4A535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "TestApp6_iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = TestApp6_iOS;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		84F7C86E122BDB9C00C4A535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "TestApp6_iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = TestApp6_iOS;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "TestApp6_OSX-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = TestApp6_OSX;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "TestApp6_OSX-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = TestApp6_OSX;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TestApp6_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../DK,
+					../../PyDK/src,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = TestApp6;
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TestApp6_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../DK,
+					../../PyDK/src,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = TestApp6;
+				SDKROOT = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84F7C86F122BDB9C00C4A535 /* Build configuration list for PBXNativeTarget "TestApp6_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F7C86D122BDB9C00C4A535 /* Debug */,
+				84F7C86E122BDB9C00C4A535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TestApp6_OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TestApp6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

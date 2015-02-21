@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		848579C516046B450086108E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848579C016046B3B0086108E /* AppKit.framework */; };
+		848579C616046B450086108E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848579C116046B3B0086108E /* IOKit.framework */; };
+		848579C716046B450086108E /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848579C216046B3B0086108E /* OpenAL.framework */; };
+		848579C816046B450086108E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848579C316046B3B0086108E /* OpenGL.framework */; };
+		84B22F471377FDAF007134CB /* ObserverTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84B22F451377FDAF007134CB /* ObserverTest.cpp */; };
+		84B22F481377FDAF007134CB /* OperationTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84B22F461377FDAF007134CB /* OperationTest.cpp */; };
+		84B9FC9B12FAF59600D9B518 /* FunctionTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84B9FC9A12FAF59600D9B518 /* FunctionTest.cpp */; };
+		84BCC7E212F86D09005308B6 /* LibTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84BCC7DC12F86D09005308B6 /* LibTest.cpp */; };
+		84BCC7E312F86D09005308B6 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84BCC7DD12F86D09005308B6 /* stdafx.cpp */; };
+		84BCC7E412F86D09005308B6 /* TestCase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84BCC7E012F86D09005308B6 /* TestCase.cpp */; };
+		84BCC7EB12F86D1B005308B6 /* ObjectTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84BCC7E712F86D1B005308B6 /* ObjectTest.cpp */; };
+		84BCC7EC12F86D1B005308B6 /* TupleTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84BCC7E812F86D1B005308B6 /* TupleTest.cpp */; };
+		84BCC7ED12F86D1B005308B6 /* TypeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84BCC7E912F86D1B005308B6 /* TypeTest.cpp */; };
+		84C001DB130EF8EB00CBDC5D /* MemoryTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84C001DA130EF8EB00CBDC5D /* MemoryTest.cpp */; };
+		84C8249E13128705008EADDE /* CollectionTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84C8249C13128705008EADDE /* CollectionTest.cpp */; };
+		84C8249F13128705008EADDE /* RunLoopTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84C8249D13128705008EADDE /* RunLoopTest.cpp */; };
+		84D2C112146B6DDA006874C2 /* DocumentTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84D2C111146B6DDA006874C2 /* DocumentTest.cpp */; };
+		84FA8445166F87960014115F /* libDK_OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FA8109166F5AEA0014115F /* libDK_OSX.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84A66BDB19299EE40086056F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA8052166F596E0014115F /* DK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 840CA4ED1928946800689BB6;
+			remoteInfo = DK;
+		};
+		84FA8108166F5AEA0014115F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA8052166F596E0014115F /* DK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84E42A5C13AF8B4200BF31EA;
+			remoteInfo = DK_OSX;
+		};
+		84FA810A166F5AEA0014115F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA8052166F596E0014115F /* DK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84E42A5D13AF8B4200BF31EA;
+			remoteInfo = DK_iOS;
+		};
+		84FA8443166F87900014115F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA8052166F596E0014115F /* DK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC045055464E500DB518D;
+			remoteInfo = DK_OSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		256AC3F00F4B6AF500CF3369 /* LibTest_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibTest_Prefix.pch; sourceTree = "<group>"; };
+		848579C016046B3B0086108E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppKit.framework; sourceTree = "<group>"; };
+		848579C116046B3B0086108E /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IOKit.framework; sourceTree = "<group>"; };
+		848579C216046B3B0086108E /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenAL.framework; sourceTree = "<group>"; };
+		848579C316046B3B0086108E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenGL.framework; sourceTree = "<group>"; };
+		84B22F451377FDAF007134CB /* ObserverTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = ObserverTest.cpp; path = TestCases/ObserverTest.cpp; sourceTree = "<group>"; };
+		84B22F461377FDAF007134CB /* OperationTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = OperationTest.cpp; path = TestCases/OperationTest.cpp; sourceTree = "<group>"; };
+		84B9FC9A12FAF59600D9B518 /* FunctionTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = FunctionTest.cpp; path = TestCases/FunctionTest.cpp; sourceTree = "<group>"; };
+		84BCC7DC12F86D09005308B6 /* LibTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = LibTest.cpp; sourceTree = "<group>"; };
+		84BCC7DD12F86D09005308B6 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = stdafx.cpp; sourceTree = "<group>"; };
+		84BCC7DE12F86D09005308B6 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = stdafx.h; sourceTree = "<group>"; };
+		84BCC7DF12F86D09005308B6 /* targetver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = targetver.h; sourceTree = "<group>"; };
+		84BCC7E012F86D09005308B6 /* TestCase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = TestCase.cpp; sourceTree = "<group>"; };
+		84BCC7E112F86D09005308B6 /* TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TestCase.h; sourceTree = "<group>"; };
+		84BCC7E712F86D1B005308B6 /* ObjectTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = ObjectTest.cpp; path = TestCases/ObjectTest.cpp; sourceTree = "<group>"; };
+		84BCC7E812F86D1B005308B6 /* TupleTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = TupleTest.cpp; path = TestCases/TupleTest.cpp; sourceTree = "<group>"; };
+		84BCC7E912F86D1B005308B6 /* TypeTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = TypeTest.cpp; path = TestCases/TypeTest.cpp; sourceTree = "<group>"; };
+		84C001DA130EF8EB00CBDC5D /* MemoryTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = MemoryTest.cpp; path = TestCases/MemoryTest.cpp; sourceTree = "<group>"; };
+		84C8249C13128705008EADDE /* CollectionTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = CollectionTest.cpp; path = TestCases/CollectionTest.cpp; sourceTree = "<group>"; };
+		84C8249D13128705008EADDE /* RunLoopTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = RunLoopTest.cpp; path = TestCases/RunLoopTest.cpp; sourceTree = "<group>"; };
+		84D2C111146B6DDA006874C2 /* DocumentTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = DocumentTest.cpp; path = TestCases/DocumentTest.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		84FA8052166F596E0014115F /* DK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DK.xcodeproj; path = ../../DK/DK.xcodeproj; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* LibTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LibTest-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* LibTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FA8445166F87960014115F /* libDK_OSX.a in Frameworks */,
+				848579C516046B450086108E /* AppKit.framework in Frameworks */,
+				848579C616046B450086108E /* IOKit.framework in Frameworks */,
+				848579C716046B450086108E /* OpenAL.framework in Frameworks */,
+				848579C816046B450086108E /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				84BCC7DC12F86D09005308B6 /* LibTest.cpp */,
+				84BCC7DD12F86D09005308B6 /* stdafx.cpp */,
+				84BCC7DE12F86D09005308B6 /* stdafx.h */,
+				84BCC7DF12F86D09005308B6 /* targetver.h */,
+				84BCC7E012F86D09005308B6 /* TestCase.cpp */,
+				84BCC7E112F86D09005308B6 /* TestCase.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* LibTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* DKTest */ = {
+			isa = PBXGroup;
+			children = (
+				84FA8052166F596E0014115F /* DK.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				848579C416046B3B0086108E /* Frameworks */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				84BCC7E512F86D0F005308B6 /* TestCases */,
+			);
+			name = DKTest;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* LibTest_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* LibTest-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		848579C416046B3B0086108E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				848579C016046B3B0086108E /* AppKit.framework */,
+				848579C116046B3B0086108E /* IOKit.framework */,
+				848579C216046B3B0086108E /* OpenAL.framework */,
+				848579C316046B3B0086108E /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks;
+			sourceTree = DEVELOPER_DIR;
+		};
+		84BCC7E512F86D0F005308B6 /* TestCases */ = {
+			isa = PBXGroup;
+			children = (
+				84C8249C13128705008EADDE /* CollectionTest.cpp */,
+				84D2C111146B6DDA006874C2 /* DocumentTest.cpp */,
+				84B9FC9A12FAF59600D9B518 /* FunctionTest.cpp */,
+				84C001DA130EF8EB00CBDC5D /* MemoryTest.cpp */,
+				84BCC7E712F86D1B005308B6 /* ObjectTest.cpp */,
+				84B22F451377FDAF007134CB /* ObserverTest.cpp */,
+				84B22F461377FDAF007134CB /* OperationTest.cpp */,
+				84C8249D13128705008EADDE /* RunLoopTest.cpp */,
+				84BCC7E812F86D1B005308B6 /* TupleTest.cpp */,
+				84BCC7E912F86D1B005308B6 /* TypeTest.cpp */,
+			);
+			name = TestCases;
+			sourceTree = "<group>";
+		};
+		84FA80EB166F5AEA0014115F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84FA8109166F5AEA0014115F /* libDK_OSX.a */,
+				84FA810B166F5AEA0014115F /* libDK_iOS.a */,
+				84A66BDC19299EE40086056F /* DK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* LibTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "LibTest" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FA8444166F87900014115F /* PBXTargetDependency */,
+			);
+			name = LibTest;
+			productInstallPath = "$(HOME)/Applications";
+			productName = DKTest;
+			productReference = 8D1107320486CEB800E47090 /* LibTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ICONDB.COM;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LibTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* DKTest */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 84FA80EB166F5AEA0014115F /* Products */;
+					ProjectRef = 84FA8052166F596E0014115F /* DK.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* LibTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		84A66BDC19299EE40086056F /* DK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DK.framework;
+			remoteRef = 84A66BDB19299EE40086056F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84FA8109166F5AEA0014115F /* libDK_OSX.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDK_OSX.a;
+			remoteRef = 84FA8108166F5AEA0014115F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84FA810B166F5AEA0014115F /* libDK_iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDK_iOS.a;
+			remoteRef = 84FA810A166F5AEA0014115F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BCC7E212F86D09005308B6 /* LibTest.cpp in Sources */,
+				84BCC7E312F86D09005308B6 /* stdafx.cpp in Sources */,
+				84BCC7E412F86D09005308B6 /* TestCase.cpp in Sources */,
+				84BCC7EB12F86D1B005308B6 /* ObjectTest.cpp in Sources */,
+				84BCC7EC12F86D1B005308B6 /* TupleTest.cpp in Sources */,
+				84BCC7ED12F86D1B005308B6 /* TypeTest.cpp in Sources */,
+				84B9FC9B12FAF59600D9B518 /* FunctionTest.cpp in Sources */,
+				84C001DB130EF8EB00CBDC5D /* MemoryTest.cpp in Sources */,
+				84C8249E13128705008EADDE /* CollectionTest.cpp in Sources */,
+				84C8249F13128705008EADDE /* RunLoopTest.cpp in Sources */,
+				84B22F471377FDAF007134CB /* ObserverTest.cpp in Sources */,
+				84B22F481377FDAF007134CB /* OperationTest.cpp in Sources */,
+				84D2C112146B6DDA006874C2 /* DocumentTest.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84FA8444166F87900014115F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DK_OSX;
+			targetProxy = 84FA8443166F87900014115F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LibTest_Prefix.pch;
+				INFOPLIST_FILE = "LibTest-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LibTest_Prefix.pch;
+				INFOPLIST_FILE = "LibTest-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../DK;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../DK;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "LibTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LibTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
